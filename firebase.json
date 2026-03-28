@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "./",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/((?!app-ads.txt).*)",
+        "destination": "https://www.dexygames.com",
+        "type": 301
+      }
+    ]
+  }
+}
